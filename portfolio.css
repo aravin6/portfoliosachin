@@ -1,0 +1,42 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    margin: 0;
+}
+
+.menu {
+    position: fixed;
+    background-color: blueviolet;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+}
+
+/* pseudo classes- selector:pseudo class(property:value;) */
+a:hover {
+    font-size: 40px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.profile{
+    margin-top: 100px;
+}
+#name{
+    font-family: 'Teko', sans-serif;
+}
+#welcome{
+    background: linear-gradient(to right,aqua,blue);
+}
